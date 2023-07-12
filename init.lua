@@ -261,6 +261,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 require('everforest').setup({
   background = 'soft',
 })
+require('everforest').load()
 
 -- [[ Configure Telescope ]]
 -- See `:help telescope` and `:help telescope.setup()`
